@@ -1,0 +1,435 @@
+:root {
+    --logo-color: #000;
+    --accent-color: #2196F3;
+    --title-color: #212121;
+    --added-text: #757575;
+    --main-backround: #FFF;
+    --team-backround: #F5F4FA;
+    --footer-backround: #2F303A;
+    --footer-number: rgba(255, 255, 255, 0.60);
+    --line-color: #ECECEC;
+    --background: #EEE;
+}
+
+.portfolio-div {
+    border: 1px solid var(--background);
+    padding: 24px 20px;
+}
+
+.line {
+    background: var(--line-color);
+    width: 1500px;
+    height: 1px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.header-css {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-list {
+    display: flex;
+    gap: 50px;
+}
+
+.hero {
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
+.hero-list {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+.portfolio {
+    padding-bottom: 94px;
+}
+
+.footer {
+    background: var(--footer-backround);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-div {
+    margin-right: 74px;
+}
+
+.logo {
+    color: var(--logo-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+    margin-right: 93px;
+}
+
+.logo-span {
+    color: var(--accent-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 50px;
+    margin-right: 290px;
+}
+
+.nav-link-2 {
+    color: var(--accent-color);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.nav-link-2:hover {
+    color: var(--accent-color);
+}
+
+.nav-link {
+    color: var(--title-color);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+
+.nav-link:hover,
+:focus {
+    color: var(--accent-color);
+}
+
+
+.header-list {
+    display: flex;
+}
+
+.header-link {
+    display: flex;
+    align-items: center;
+}
+
+.header-img {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: var(--added-text);
+}
+
+.header-im {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    fill: var(--added-text);
+}
+
+.header-link {
+    color: var(--added-text);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+
+.header-item:hover,
+:focus {
+
+    .header-img,
+    .header-im {
+        fill: var(--accent-color);
+    }
+
+    .header-link {
+        color: var(--accent-color);
+    }
+}
+
+.header-link:hover {
+    color: var(--accent-color);
+}
+
+.hero-btn {
+    border-radius: 4px;
+    background: var(--team-backround);
+    color: var(--title-color);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.625;
+    letter-spacing: 0.48px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border: none;
+}
+
+.hero-btn:hover {
+    border-radius: 4px;
+    background: var(--accent-color);
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+    color: var(--main-backround);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.625;
+    letter-spacing: 0.48px;
+}
+
+.hero-btn:focus {
+    border-radius: 4px;
+    background: var(--accent-color);
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+    color: var(--main-backround);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.625;
+    letter-spacing: 0.48px;
+}
+
+.portfolio-item {
+    flex-basis: calc((100% - 60px) / 3);
+}
+
+.portfolio-item:hover {
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+}
+
+.portfolio-img {
+    width: 100%;
+}
+
+.portfolio-name {
+    color: var(--title-color);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 1.08px;
+    margin-bottom: 4px;
+}
+
+.portfolio-text {
+    color: var(--added-text);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875;
+    letter-spacing: 0.48px;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.address {
+    margin-top: 20px;
+    font-style: normal;
+}
+
+.address-item {
+    margin-top: 9px;
+}
+
+.address-list {
+    margin-top: 9px;
+}
+
+.address-text {
+    color: var(--main-backround);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+}
+
+.address-link {
+    color: var(--added-text);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+}
+
+.footer-logo-span {
+    color: var(--accent-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+}
+
+.footer-logo {
+    color: var(--main-backround);
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+}
+
+.social-section {
+    margin-right: 93px;
+}
+
+.social-text {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #4a4a52;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon:hover {
+    background-color: #2196F3;
+}
+
+.social-icon:focus {
+    background-color: #2196F3;
+}
+
+.footer-svg {
+    width: 20px;
+    height: 20px;
+    margin-top: 32px;
+    margin: 12px;
+    fill: #FFFFFF;
+}
+
+.footer-fv {
+    display: flex;
+    align-items: baseline;
+}
+
+.form-p {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.form-lable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 0.48px;
+    width: 358px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(33, 150, 243, 0.00);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding-left: 16px;
+}
+
+.form-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 187%;
+    letter-spacing: 0.96px;
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    width: 200px;
+    height: 50px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.form-svg {
+    width: 24px;
+    height: 24px;
+    fill: #FFF;
+}
