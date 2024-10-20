@@ -211,7 +211,7 @@ body {
 }
 
 .advantages-item:nth-child(3)::before {
-    background-image: url(../imges/diagram.png);
+    background-image: url(../images/diagram.png);
 }
 
 .advantages-item:nth-child(4)::before {
